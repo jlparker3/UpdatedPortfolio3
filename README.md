@@ -1,7 +1,7 @@
 # UpdatedPortfolio
 
 # Link to portfolio
-
+https://jlparker3.github.io/UpdatedPortfolio3/
 
 # Purpose
 Everyone needs a portfolio, one home for your favorites works of code. For my portfolio, I wanted a simple clean site that was both easy to navigate and appealing to the eye. With the nav-bar, a user could go directly to the specific section they are looking for. 
