@@ -1,94 +1,11 @@
-*RESET DEFAULT SETTINGS*/
-
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-
-/*Customization CSS Jessica Parker*/
 
 
 html{
 	scroll-behavior: smooth;
 }
-/* nav bar padding so the elements are spaced out properly*/
-nav{
-	padding:5;
-}
-/* Name centered and background color black, text white */
-#name{
-	text-align:center;
-	background: white;
-	color:black;
-	box-shadow: 0 2px 5px;
-}
 
-/* typewriter animation */
-.typewriter{
-	overflow: hidden;
-	border-right: .15em solid grey;
-	white-space: nowrap;
-	margin: 0 auto;
-	letter-spacing: 2.0;
-	animation: typing 3.5s steps(40, end),
-	blink-caret .75s step-end;
-}
-/* typing effect */
-@keyframes typing {
-	from {width: 0}
-	to {width: 100%}
-}
-@keyframes blink-caret {
-	from, to { border-color: transparent}
-	50% { border-color: grey; }
 
-}
+
 /* center photo */
 .photo{
 	display: block;
@@ -109,12 +26,9 @@ h2{
 }
 /* formats resume download to center underneath portfolio */
 .resume{
-	margin-left: 290px;
+	margin-left: 0.9vh;
 }
-/* move progress bar to the left  */
-.progress,h4{
-	margin-left:15px;
-}
+
 
 
 /* centering submit button */
@@ -128,16 +42,13 @@ p {
     line-height: 1.7;
 	text-align: left; 
 	font-family: poppins,sans-serif; 
-	padding:10px;
+	/* padding:10px; */
+	color:black;
 	
 }
 
 
-/*adds a background color of cool grey tone*/
-body {  
-	background-color:#D3D3D3
-	
-}
+
 
 
 /*alternate color for links  and hover change color effect*/
@@ -171,6 +82,16 @@ footer {
 .contact{
 	margin-bottom:10%;
 }
+body {
+  background-color:lightgray;
+  text-align: center;
+  color:black;
+  /* padding-top:10em; */
+}
+
+* { color:#fff; text-decoration: none;}
+
+
 
 
 @media (max-width: 992px) {

@@ -17,7 +17,7 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-top: 0vh;">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,6 +35,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#Contact">Contact Me</a>
                 </li>
+                <li style="margin-left: 120vh;"><h3>Jessica Parker</h3></li>
             </ul>
         </div>
     </nav>
@@ -42,12 +43,13 @@
     <!-- Welcome section -->
     <div class="container pt-5">
 
-        <div class="jumbotron" id="name">
-            <div class="container"></div>
-            <h1 class="display-2">Jessica Parker</h1>
-            <h1 class="typewriter">Software developer</h1>
-        </div>
 
+<h1>
+    <div class="typewrite" data-period="2000" data-type='[ "Hi, Im Jess.", "I am a problem solver.", "I am a web developer.", "I love to code." ]'>
+      <span class="wrap" ></span>
+    </div>
+  </h1>
+  
 
 
     </div>
@@ -96,11 +98,11 @@
     <section>
         <div class="row mt-2">
             <div class="col-lg-8">
-                <h2 id="Portfolio">Portfolio</h2>
+                <h2 id="Portfolio" style="color:black">Projects</h2>
                 <!-- downloadable resume -->
                 <div class="resume">
                     <a href="Resume 2020.pdf" download>
-                        <h4>Downloadable Resume</h4>
+                        <h4 style="color:black">Resume</h4>
                     </a>
                 </div>
             </div>
@@ -116,6 +118,9 @@
                     <div class="card-body">
                         <p class="card-text">An application that provides a list of movies based on the holidays
                             that are closest to the date that is entered.</p>
+                            <p style="text-decoration-line: underline;">Technologies Used:</p>
+                            <p>Javascript,JQuery, AJAX, API, HTML, CSS</p>
+                       
                         <p class="links"><a href="https://github.com/Project-1-Group-4/Holiday-at-the-Movies"
                                 target="_blank" rel="noopener noreferrer">Code</a></p>
                         <p class="links"><a href="https://project-1-group-4.github.io/Holiday-at-the-Movies/"
@@ -134,6 +139,8 @@
                             alt="Screenshot of note taker">
                         <div class="card-body">
                             <p class="card-text">The purpose of the application is to keep track of daily tasks and have an organized mindset by using this convenient app that will allow you to write, save, and delete notes.</p>
+                            <p style="text-decoration-line: underline;">Technologies Used:</p>
+                            <p> Javascript, Heroku, AJAX, CRUD, mySQL, Node, HTML, CSS</p>
                             <p class="links"><a
                                     href="https://github.com/jlparker3/Note-Taker"
                                     target="_blank" rel="noopener noreferrer">Code</a></p>
@@ -154,6 +161,8 @@
                             alt="Screenshot of burger genie">
                         <div class="card-body">
                             <p class="card-text">A full stack application that allows the user to create, delete and consume the selected burger.</p>
+                            <p style="text-decoration-line: underline;">Technologies Used:</p>
+                            <p> Javascript,JQuery, AJAX, Heroku, mySQL, handlebars, Express, Node, HTML, CSS</p>
                             <p class="links"><a href="https://github.com/jlparker3/Burger-Genie" target="_blank"
                                     rel="noopener noreferrer">Code</a></p>
                             <p class="links"><a
@@ -164,12 +173,80 @@
                     </div>
                 </figure>
             </div>
+            <div class="col-lg-4 mt-5">
+                <figure>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://user-images.githubusercontent.com/68556793/108079519-86f8e180-7034-11eb-9750-329a966467dc.png" class="card-img-top"
+                            alt="Screenshot of budget app" />
+                        <div class="card-body">
+                            <p class="card-text">The purpose of the application is to keep track of your money. It gives you the benefit of seeing your money flex and shrink in graphical notation.</p>
+                            <p style="text-decoration-line: underline;">Technologies Used:</p>
+                            <p> Javascript,JQuery, AJAX, Heroku, mongoDB, mongoose, CRUD, manifest.json, Express, Node, HTML, CSS</p>
+                            <p class="links"><a
+                                href="https://github.com/jlparker3/Progressive-Budget"
+                                target="_blank" rel="noopener noreferrer">Code</a></p>
+                            <p class="links"><a
+                                href="https://progressive-budget-app-12.herokuapp.com/"
+                                target="_blank" rel="noopener noreferrer">Website</a></p>
+                        </div>
+                    </div>
+    
+                </figure>
+    
+    
+    
+            </div>
+            <div class="col-lg-4 mt-5">
+                <figure>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://user-images.githubusercontent.com/68556793/107160246-bfc0f880-695a-11eb-9160-60e6337da842.png" class="card-img-top"
+                            alt="Screenshot of workout tracker" />
+                        <div class="card-body">
+                            <p class="card-text">The purpose of the application is to keep track of daily workouts which stores the data in a mongo database, with that information makes graphs of your total workout summary.</p>
+                            <p style="text-decoration-line: underline;">Technologies Used:</p>
+                            <p>Javascript,JQuery, AJAX, Heroku, mongoDB, mongoose, CRUD, Node, HTML, CSS</p>
+                            <p class="links"><a
+                                href="https://github.com/jlparker3/hw17-Workout-Tracker"
+                                target="_blank" rel="noopener noreferrer">Code</a></p>
+                            <p class="links"><a
+                                href="https://workout-tracker5.herokuapp.com/"
+                                target="_blank" rel="noopener noreferrer">Website</a></p>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+            <div class="col-lg-4 mt-5">
+                <figure>
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://user-images.githubusercontent.com/68556793/112066618-b370b380-8b34-11eb-87b0-4454e403aecc.png" class="card-img-top"
+                            alt="Screenshot of Sno-More" />
+                        <div class="card-body">
+                            <p class="card-text">The purpose of this application is to provide a snow shoveling platform where a user can post a job and see it in there dashboard or a user can signup as a shoveler see jobs in the local area via zip code, accept jobs, and complete them accordingly.</p>
+                            <p style="text-decoration-line: underline;">Technologies Used:</p>
+                            <p> Javascript, API, AJAX, Heroku, mongoDB, mongoose, CRUD, material-UI, Passport, twilio, hot toast, Express, Node, MERN, React</p>
+                            <p class="links"><a
+                                href="https://github.com/Sno-More/SnoMore"
+                                target="_blank" rel="noopener noreferrer">Code</a></p>
+                            <p class="links"><a
+                                href="https://snow-more.herokuapp.com/"
+                                target="_blank" rel="noopener noreferrer">Website</a></p>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+
+            
+
         </div>
+  
+       
+
+    </div>
     </section>
 
     <!-- SKILLS SECTION -->
-    <h2>Skills</h2>
-    <div class="col-md-8">
+    <h2 style="color:black">Skills</h2>
+    <div class="col-md-8" style="margin-left: 31vh">
         <h4>HTML</h4>
         <h4>CSS</h4>
         <h4>Javascript/Jquery</h4>
@@ -180,6 +257,8 @@
         <h4>Handlebars</h4>
         <h4>Passport</h4>
         <h4>Heroku</h4>
+        <h4>Git and Github</h4>
+        <h4></h4>
  
         </div>
 
@@ -190,27 +269,27 @@
     <div class="container row contact">
         <div class="col-md-12 mt-5">
             <header>
-                <h2 class="contact-me" id="Contact">Contact Me</h2>
+                <h2 class="contact-me" id="Contact" style="color:black">Contact Me</h2>
             </header>
 
             <form>
                 <section class="row">
                     <div class="col-md-4 mt-3">
-                        <label for="Name">Name</label>
+                        <label for="Name"></label>
                         <input type="text" class="form-control" id="Name" placeholder="Name" style=width:300px>
                     </div>
                 </section>
 
                 <section class="row">
                     <div class="col-md-4 mt-3">
-                        <label for="Email">Email</label>
+                        <label for="Email"></label>
                         <input type="text" class="form-control" id="Email" placeholder="Email" style=width:300px>
                     </div>
                 </section>
 
                 <section class="row">
                     <div class="col-md-4 mt-3">
-                        <label for="Message">Message</label>
+                        <label for="Message"></label>
                         <input type="text" class="form-control" id="Message" placeholder="Message" style=width:300px>
                     </div>
                 </section>
@@ -261,6 +340,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <script src= "index.js"></script>
 </body>
 
 </html>
